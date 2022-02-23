@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nitish's Portfolio</title>
+    <!-- styleSheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="bg-white">
+    <div class="w-auto bg-gray-700"><!-- This is the navBar -->
+        <nav class="bg-gray-900 shadow-lg">
+            <div class="mx-auto max-w-6xl text-white">
+                <div class="flex justify-between">
+                    <div class="flex py-2">
+                        <a class="flex item-center" href="#">
+                            <img class="w-14 h-10 rounded-full" src="https://i.pinimg.com/originals/1c/54/f7/1c54f7b06d7723c21afc5035bf88a5ef.png" alt="err">
+                            <span class="font-semibold ml-2 text-lg">My Portfolio</span>
+                        </a>
+                    </div>
+                    <div class="flex space-x-2 mx-4 hidden md:flex">
+                        <a class="py-4 px-2 border-green-500 border-b-4 hover:text-green-500 transition duration-200" href="">Home</a>
+                        <a class="py-4 px-2 border-green-500 border-b-4 hover:text-green-500 transition duration-200" href="">About me</a>
+                        <a class="py-4 px-2 border-green-500 border-b-4 hover:text-green-500 transition duration-200" href="">Projects</a>
+                        <a class="py-4 px-2 border-green-500 border-b-4 hover:text-green-500 transition duration-200" href="">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- This is the main section -->
+
+        <div class="mt-20 px-20 w-auto ">
+            <div class="flex grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2">
+                <div>
+                    <h1 class="sm:text-center lg:text-left font-extrabold text-7xl leading-snug text-white ml-24 " id="desc">Hi, <br> I'm <span class="text-red-400">Nitish,</span>  <br> Web Developer.</h1>
+                </div>
+                <div>
+                    <img class="mx-auto w-96 mb-14" src="me.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <main class="bg-white">
+        <div class="">
+            <h2 class="abctext text-emerald-600 font-semibold text-4xl text-center pt-20 mb-5">About me</h2>
+            <p class="xyztext font-medium text-center text-lg">I am a Computer Science Engineering (CSE core) student in <br> VIT Vellore, I'm currently doing my second semester. </p>
+            <img class="w-32 mt-6 mx-auto" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/800px-Vellore_Institute_of_Technology_seal_2017.svg.png" alt="">
+            <hr>
+            <div class="">
+                <h2 class="abctext font-semibold text-4xl text-center mt-5 pt-16">My Skillset</h2>
+                <div class="skill-row">
+                    <img class="web-dev" src="web-development.png" alt="web-dev error">
+                    <h3 class="abctext font-semibold text-2xl text-left mt-5 pt-3.5">Web Development:</h3>
+                    <p class="xyztext font-medium text-center text-lg"><br> Web development is certainly one of my areas of expertise. I have had great interest in 
+                        web-dev ever since I discovered it in first semester, as of now I am involved
+                        only in front-end, but I am planning to get into back-end in the near future..</p>
+                </div>
+
+            </div>
+
+        </div>
+        <hr>
+    </main>
+    <!-- recent projects card -->
+    <div class="flex justify-center mt-3.5">
+        <h2 class="abctext text-emerald-600 font-semibold text-4xl pt-5 mb-5">Recent Projects</h2>
+    </div>
+    <!-- 3 cards container -->
+    <div class="gap-5 grid p-10 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+        <!-- cards -->
+        <div class="rounded shadow-lg">
+            <img w-full class="rounded shadow-md mb-2" src="card-2.png" alt="">
+            <div class="px-6 pt-3">
+                <div class="font-bold text-xl mb-2">TinDog website</div>
+                <p class="xyztext font-medium text-left text-base mb-8">I followed a course by Angela-yu for web-development thus I replicated one of her projects using bootstrap</p>
+            </div>
+                <div class="p-5">
+                    <a href="https://nitish2004.github.io/tindog/">
+                        <button class=" rounded-lg p-1 px-3 text-white bg-gradient-to-r from-blue-500 to-blue-700"><span class="text-lg uppercase"> Visit Site</span></button>
+                    </a>
+                </div>
+        </div>
+        <div class="rounded shadow-lg">
+            <img w-full class="rounded shadow-md mb-2" src="card-3.png" alt="">
+            <div class="px-6 pt-3">
+                <div class="font-bold text-xl mb-2">First website</div>
+                <p class="xyztext font-medium text-left text-base mb-8">This was my very first site, I made it using raw html without any css</p>
+            </div>
+                <div class="p-5">
+                    <a href="https://nitish2004.github.io/cv/">
+                        <button class=" rounded-lg p-1 px-3 text-white bg-gradient-to-r from-blue-500 to-blue-700"><span class="text-lg uppercase"> Visit Site</span></button>
+                    </a>
+                </div>
+        </div>
+        <div class="rounded shadow-lg">
+            <img w-full class="rounded shadow-md mb-2" src="card-1.png" alt="">
+            <div class="px-6 pt-3">
+                <div class="font-bold text-xl mb-2">Ex-portfolio website</div>
+                <p class="xyztext font-medium text-left text-base mb-8">This is my old portfolio website, made using html and vanilla-css</p>
+            </div>
+                <div class="p-5">
+                    <a href="">
+                        <button class=" rounded-lg p-1 px-3 text-white bg-gradient-to-r from-blue-500 to-blue-700 "><span class="text-lg uppercase"> Visit Site</span></button>
+                    </a>
+                </div>
+        </div>
+    </div> <hr>
+    <!-- Contact -->
+    <div class="flex grid grid-rows-2 justify-center mt-3.5 pb-7">
+        <h2 class="abctext font-semibold text-5xl text-center pt-20 mb-5">Get In Touch</h2>
+        <p class="xyztext font-semibold text-xl text-center pt-5 mb-5">If any queries arise,<br>Feel free to contact me,<br> I usually respond to all the  mails within 24 hours</p>
+        <a class="mx-auto" href="mailto:nitish.narayanan12@gmail.com">
+            <button class=" rounded-lg p-1 px-3 text-white text-2xl px-5 bg-gradient-to-r from-blue-500 to-blue-700 ">CONTACT</button>
+        </a>
+    </div>
+    <!-- footer -->
+    <div class="flex grid grid-cols-3 text-center bg-gray-900 p-10">
+        <a class="text-gray-500 hover:text-white" href="https://www.linkedin.com/in/nitish-narayanan-5b8202224/">LinkedIn</a>
+        <a class="text-gray-500 hover:text-white" href="https://github.com/Nitish2004/">Github</a>
+        <a class="text-gray-500 hover:text-white" href="https://www.instagram.com/nitish.narayanan12/">Instagram</a>
+        
+        
+      </div>
+    <div class="bg-gray-900 pb-5 text-center text-white"><p>© 2022 Nitish Narayanan @ NN12</p></div>  
+
+  </body>
+</html>
